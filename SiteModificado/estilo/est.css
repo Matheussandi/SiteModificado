@@ -1,0 +1,184 @@
+﻿/* ... */
+* {
+    box-sizing: border-box; 
+    /* Para considerar todo o tamanho do elemento */
+}
+body{
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: lightgray;
+}
+
+.cabecalho {
+    background-color:lightslategrey;
+    border-bottom: solid 5px cornflowerblue;
+    height: 95px;
+}
+
+.secao{
+    height: 500px;
+}
+
+.logo {
+    display:inline-block;
+    height: 80px;
+    padding: 15px;
+}
+
+.logo2 {
+    text-align: center;
+    height: 80px;
+    padding: 15px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.menu-toggle {
+    float:right;
+    color:cornsilk;
+    background-color:lightslategrey;
+    border: solid 1px #777;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px 20px;
+    margin: 20px 15px;
+}
+.menu {
+    display:inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+}
+
+.menu ul {
+    margin:0;
+    padding: 0;
+}
+
+.menu li {
+    display:inline-block;
+}
+
+.cabecalho a, .rodape a{
+    text-decoration: none;
+    color: #eee;
+    font-size:15px;
+    padding: 15px;
+}
+
+.autenticacao{
+    float:right;
+    height: 80px;
+    padding: 25px;
+}
+
+.menu a:hover{
+    background-color:lightskyblue;
+    color:black;
+}
+
+.botao {
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin:10px;
+}
+
+.destaque {
+    background:red;
+    color: white;
+}
+
+@media(min-width: 650px)
+    { .menu-toggle{display: none;}
+    }
+
+@media(max-width: 650px)
+    { .menu{display: none;}
+    }
+
+@media(max-width: 780px)
+    { .autenticacao{display: none;}
+    }
+
+.dropdown .dropbtn {
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+        background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.rodape {
+    bottom:auto; 
+    background-color:lightslategrey;
+    height: 120px;
+}
+
+.rodape-copyright {
+    color: #eee;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size:16px;
+    padding: 10px;
+}   
+
+#coluna {color:MidnightBlue;
+    padding:10px;
+    font-family:Verdana;
+    font-size:100%;
+    text-align:justify;
+    line-height:150%;
+    text-indent: 1%;
+    column-count: 2;
+    column-rule: 2px solid MidnightBlue;}
+  
+#titulo	{background-color:#01A9DB;
+    color:black;padding:5px;
+    font-family:courier;
+    font-size:10%;
+    text-align:left;
+    line-height:50%;}	
+        
+abbr {	color:red; 
+    font-family:Comic Sans; 
+    font-size:120%; 
+    font-style:italic;
+    font-weight:bold;}
+
+cite {color:#8B0000;
+		padding:1	px;
+		font-family:Verdana;
+		font-size:100%;
+		line-height:100%;}

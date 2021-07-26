@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Menu</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="unifoa-icon.png">
+        <link rel="stylesheet"  type="text/css" href="estilo/reset.css">
+        <link rel="stylesheet"  type="text/css" href="estilo/est.css">
+        <link rel="stylesheet"  type="text/css" href="estilo/w3.css">
+        <title>Desafio SlideShow</title>
+        <style>
+
+            .b {
+                background-color: cornflowerblue;
+            }
+
+            .c {
+                width:20%;
+                border-radius: 10px;
+                text-align: center;
+                margin-left: 300px;
+            }
+
+            .d {
+                text-align: justify;
+                margin-left: 300px;
+                margin-right: 300px;
+                
+            }
+            
+        </style>
+    </head>
+
+<body>
+    <header class="cabecalho">
+
+        <div class="logo">
+            <a href="https://www.unifoa.edu.br/">
+                <img src="image/unifoa.png" alt="Logo" />
+            </a>
+        </div>
+
+        <button class="menu-toggle">
+            <i class="fa fa-lg fa-bars"></i>
+        </button>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="00_Site.html">Início</a>
+                </li>
+                <li>
+                    <a href="https://www.foa.org.br/cursos">Cursos</a>
+                </li>
+                <li>
+                    <a href="https://www.unifoa.edu.br/institucional">Sobre</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Contato</button>
+                        <div class="dropdown-content">
+                        <a href="https://www.unifoa.edu.br/contato">UniFOA</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <aside class="autenticacao">
+            <a href="https://portal.unifoa.edu.br/PortalSagres/Acesso.aspx">Login</a>
+            <a href="https://portal.unifoa.edu.br/PortalSagres/NovoUsuario.aspx" class="botao destaque">Registrar</a>
+        </aside>
+
+        <div class="w3-center">
+            <a class="b" style="border-radius: 10px;">Business Intelligence</a>
+        </div>
+    </header>
+
+    <section>
+        <br><br>
+         <div class="w3-content w3-display-container">
+             <img class="mySlides" src="image/businessIntelligence.jpg" style="width:100%;height:400px; border-radius: 20px; margin-top: -10px;">
+         </div>
+  
+         <br>
+         <h4 class="w3-light-blue c">O que é
+         </h4>
+  
+         <p class="texto d">Business Intelligence é usar da coleta de dados, organização, 
+             análise, ação e monitoramento para tomar melhores decisões e saber se os investimentos feitos estão trazendo bons resultados.
+            <br><br>
+            Como a explicação acima deixa claro, BI não é uma ferramenta, como muitos pensam. 
+            Apesar de depender de softwares robustos para entregar todo o valor que se espera, 
+            o Business Intelligence (ou Inteligência de Negócios) vai muito além disso.
+            <br><br>
+            Os líderes e gestores devem ter em mente que BI é um conjunto de processos que tem por objetivo entregar a informação certa, 
+            para a pessoa certa, na hora certa.
+         </p>
+  
+         <h4 class="w3-light-blue c">Como funciona ?</h4>
+  
+         <p class="d">Então, uma empresa que deseja otimizar a gestão da sua cadeia de suprimentos precisará do BI para melhor determinar onde estão ocorrendo os erros, 
+            os problemas e as variabilidades dentro dos processos de remessa, por exemplo.
+            <br><br>
+            Essa mesma companhia também pode utilizar o Business Intelligence para descobrir quais produtos atrasam mais ou quais modos de transporte que estão envolvidos com os atrasos.
+            <br><br>
+            Ao captar os dados, as informações adquiridas serão gravadas em um banco de dados modelado especialmente para o seu negócio. Com essa modelagem, 
+            conhecida como “Modelagem Dimensional”, é possível trabalhar com uma grande massa de dados sem perda de performance.
+  
+         <h4 class="w3-light-blue c">Suas vantagens</h4>
+    
+         <p class="d">
+            A aplicação do Business Intelligence possibilita que a organização faça uma gestão mais inteligente das suas informações. 
+            Entre os benefícios do BI, estão:
+            <br><br>
+
+                <li class="d">a identificação de custos sobressalentes;
+                <li class="d">a descoberta de oportunidades de negócios;
+                <li class="d">relatórios acessíveis de dados;
+                <li class="d">reações rápidas às demandas do mercado;
+                <li class="d">otimização de preços.</li>
+
+         <hr>
+                     
+ </section>
+
+        <footer class="rodape">
+
+            <div class="logo">
+                <a href="#inicio">
+                    <img src=   "image/unifoa.png" alt="Logo" />
+                </a>
+            </div>
+     
+            <nav class="menu">
+                
+                <ul>
+                    <li>
+                        <a href="#inicio">Marcelo Passos</a>
+                    </li>
+                    <li>
+                        <a href="https://www.unifoa.edu.br/cursos/sistemas-de-informacao">Sistema de Informação</a>
+                    </li>
+                    <li>
+                        <a href="#sobre">UniFOA : Todos Direitos Reservados</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+      
+            <!-- Copyright -->
+            <div class="rodape-copyright">© 2020 Copyright : UniFOA
+            </div>
+     
+        </footer>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+         
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+         
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+            }
+        </script>
+
+</body>
+</html>

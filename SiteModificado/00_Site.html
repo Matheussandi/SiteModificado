@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Menu</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="unifoa-icon.png">
+        <link rel="stylesheet"  type="text/css" href="estilo/reset.css">
+        <link rel="stylesheet"  type="text/css" href="estilo/est.css">
+        <link rel="stylesheet"  type="text/css" href="estilo/w3.css">
+        <title>Desafio SlideShow</title>
+        <style>
+       
+        </style>
+    </head>
+
+<body>
+    <header class="cabecalho">
+
+        <div class="logo">
+            <a href="#inicio">
+                <img src=   "image/unifoa.png" alt="Logo" />
+            </a>
+        </div>
+
+        <button class="menu-toggle">
+            <i class="fa fa-lg fa-bars"></i>
+        </button>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#inicio">Início</a>
+                </li>
+                <li>
+                    <a href="#cursos">Cursos</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Contato</button>
+                        <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <aside class="autenticacao">
+            <a href="#login">Login</a>
+            <a href="#registar" class="botao destaque">Registrar</a>
+        </aside>
+
+        <div class="w3-bar w3-section w3-black w3-card-4">
+            <a href="https://www.unifoa.edu.br" class="w3-bar-item w3-button w3-green w3-hover-red">Sist. Informaçao</a>
+            <a href="#" class="w3-bar-item w3-button">Matriz Curricular</a>
+            <a href="#" class="w3-bar-item w3-button">Professores</a>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button">Trabalho</button>
+                <div class="w3-dropdown-content w3-bar-block ">
+                    <a href="01_ProjetosEmNuvem.html" class="w3-bar-item w3-green w3-button">1. Projetos em Nuvem</a>
+                    <a href="02_SegurancaDaInformacao.html" class="w3-bar-item w3-green w3-button">2. Segurança da Informação</a>
+                    <a href="03_InteligenciaArtificial.html" class="w3-bar-item w3-green w3-button">3. Inteligência Artificial </a>
+                    <a href="04_RealidadeAumentada.html" class="w3-bar-item w3-green w3-button">4. Realidade aumentada</a>
+                    <a href="05_InternetDasCoisas.html" class="w3-bar-item w3-green w3-button">5. Internet das coisas</a>
+                    <a href="06_Blockchain.html" class="w3-bar-item w3-green w3-button">6. Blockchain</a>
+                    <a href="07_EficienciaEGestao.html" class="w3-bar-item w3-green w3-button">7. Eficiência e Gestão de ativos computacionais</a>
+                    <a href="08_DigitalizacaoDeDocumentos.html" class="w3-bar-item w3-green w3-button">8. Digitalização de documentos, certificação e assinatura eletrônica</a>
+                    <a href="09_BusinessIntelligence.html" class="w3-bar-item w3-green w3-button">9. Business Intelligence</a>
+                    <a href="10_ExperienciasImersivas.html" class="w3-bar-item w3-green w3-button">10.Experiências imersivas</a>        
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <br><br><br>
+         <div class="w3-content w3-display-container">
+             <img class="mySlides" src="image/bigdata.jpg"               style="width:100%;height:400px;">
+             <img class="mySlides" src="image/CampusOlezioGalotti.png"   style="width:100%;height:400px;">
+             <img class="mySlides" src="image/iot.jpg"                   style="width:100%;height:400px;">
+             <img class="mySlides" src="image/ti.jpg"                    style="width:100%;height:400px;">
+             <img class="mySlides" src="image/certificadodigital.jpg"    style="width:100%;height:400px;">
+             
+             <button class="w3-button w3-black w3-display-left"  onclick="plusDivs(-1)">&#10094;</button>
+             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+         </div>
+  
+         <h4 class="w3-center w3-light-blue">Mercado de Trabalho
+         <img src="image/si.png" alt="Foto do Curso de SI" style="float:right;width:30px;height:30px;"}/>
+         </h4>
+  
+         <p class="texto">O segmento de <b>Tecnologia da Informação</b> tem uma das maiores necessidades de profissionais no Brasil,
+         por ser um dos setores em constante evolução. 
+         Bancos, empresas de telecomunicações, agricultura, comércio, poder público, contratam para desenvolvimento de softwares. 
+         Nesses ambientes, o <q>profissional pode atuar em dezenas de funções, desde segurança e auditoria, até consultoria, 
+         desenvolvimento e administração de sistemas operacionais.</q>
+         </p>
+  
+         <h4 class="w3-center w3-light-blue">Diferencial</h4>
+  
+         <p id="coluna">O aluno de Sistemas de Informação do <abbr title="Centro Universitário de Volta Redonda">UniFOA</abbr> 
+         será capacitado para propor soluções tecnológicas às necessidades das organizações, em todas as áreas, 
+         desde a administração, passando pelo gerenciamento e implantação de sistemas. 
+         O curso oferece os módulos do <i>Programa Cisco Networking Academy</i> e 
+         possui convênio com a Microsoft através do <i>Microsoft IT Program</i>. 
+         O acadêmico adquire conhecimentos em programação, análise e projetos de sistemas; desenvolvimento em ambiente 
+         internet/intranet; banco de dados; engenharia e qualidade de software; arquitetura de computadores; 
+         sistemas operacionais; arquitetura e serviços de internet; 
+         infraestrutura de redes; auditoria e segurança da informação; governança, gerência e gestão de projetos.
+         </p>
+  
+         <h4 class="w3-center w3-light-blue"> Reconhecimento</h4>
+         <blockquote>
+         <p class="texto">Curso reconhecido pela Portaria do MEC n.<sup>o</sup> 286, de 21 de dezembro de 2012.
+         Nota 4 no Enade.</p>
+         <cite>"Avaliado com três estrelas pelo Guia do Estudante da Editora Abril."</cite> 
+         </blockquote>
+         <hr>
+                     
+ </section>
+
+        <footer class="rodape">
+ 
+            <div class="logo">
+                <a href="#inicio">
+                    <img src=   "image/unifoa.png" alt="Logo" />
+                </a>
+            </div>
+     
+            <nav class="menu">
+                
+                <ul>
+                    <li>
+                        <a href="#inicio">Marcelo Passos</a>
+                    </li>
+                    <li>
+                        <a href="#cursos">Sistema de Informação</a>
+                    </li>
+                    <li>
+                        <a href="#sobre">UniFOA : Todos Direitos Reservados</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+      
+            <!-- Copyright -->
+            <div class="rodape-copyright">© 2020 Copyright : UniFOA
+            </div>
+     
+        </footer>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+         
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+         
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+            }
+        </script>
+
+</body>
+</html>
